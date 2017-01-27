@@ -36,6 +36,14 @@ You are not alone! If you have any questions while you are working through your 
 
 Download and unzip or, using Git, [clone the repository](https://help.github.com/articles/cloning-a-repository/) where our [Java SDK](https://github.com/hps/heartland-java) is located on Github. Link in the project using the IDE of your choice and run! Because this SDK uses [Maven](https://maven.apache.org/what-is-maven.html) your build process should automatically download the external dependencies needed to build your application.
 
+Alternatively, you can get the SDK as a JAR from maven central:
+
+	<dependency>
+	    <groupId>com.heartlandpaymentsystems</groupId>
+	    <artifactId>secure-submit</artifactId>
+	    <version>v2.0.11</version>
+	</dependency>
+
 ## API Keys
 
 <img src="http://developer.heartlandpaymentsystems.com/Resource/Download/sdk-readme-icon-keys" align="right"/>
